@@ -1,9 +1,9 @@
-from GeomettiaObliczeniowaLab01_02.Pentagon import Pentagon
+from Pentagon import *
 from Visualisation import *
-from Test import *
 from Triangle import Triangle
-
-print("LAB_01_01")
+from Punkt import Point
+from Line import Line
+("LAB_01_01")
 point1 = Point(0, 1)
 point2 = Point(4, 4)
 line1 = Line(point1, point2)
@@ -14,7 +14,7 @@ print("LAB_01_02")
 
 point3 = Point(1, 1.75)
 line1.is_on_line(point3)
-# plot_lab_01_ex2(line1.equation(), point3)
+plot_lab_01_ex2(line1.equation(), point3)
 
 print("LAB_01_03")
 
@@ -23,7 +23,7 @@ if line1.is_point_on_segment(point3):
 else:
     print("Point in not on segment")
 
-# plot_lab_01_ex3(line1, point3)
+plot_lab_01_ex3(line1, point3)
 
 print("LAB_01_04")
 point4 = Point(10, 10)
