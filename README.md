@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import random
 import matplotlib.pyplot as plt
 
@@ -113,3 +114,8 @@ for point in points_in_range:
     print(f"({point.x:.2f}, {point.y:.2f})")
 
 show_points(random_points, points_in_range, choose_x_min, choose_x_max, choose_y_min, choose_y_max)
+=======
+# Geometric_Algotithms
+</br>
+This repository includes implementations of geometric algorithms
+>>>>>>> e73dde3bd1d8e71e75da253a34009029d43b7663
